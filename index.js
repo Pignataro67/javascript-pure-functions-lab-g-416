@@ -28,5 +28,6 @@ function bingeWatch(playlist) {
     let removed = removeFromPlaylist(playlist, first);
     return bingeWatch(removed);
   }
-  return "Dat's All Folks!!!";
+  return 'Please let there be more!';
+  // return "Dat's All Folks!!!";
 }
